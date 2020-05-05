@@ -30,7 +30,7 @@ musp()
 spoti()
 {
 	WD="$(pwd)"
-	python $musicscrapedirectory/spotifyyoutubescraping.py $1
+	python $musicscrapedirectory/spotifyyoutubescraping.py $1  # THIS LINE IS BROKEN, IT NEEDS TO CALL main.py and then the function spotofyyoutubescraping with arg $1
 	cd $musicdirectory/HoldingZone
 	PLAYLISTNAME="$(ls)"
 	echo $PLAYLISTNAME
@@ -45,6 +45,6 @@ spoti()
 artist()
 {
 	WD="$(pwd)"
-	python $musicscrapedirectory/wikipediayoutubescraping.py "$1"
+	python $musicscrapedirectory/wikipediayoutubescraping.py "$1"  # THIS LINE IS BROKEN, IT NEEDS TO CALL main.py and then the function wikipediayoutubescraping with arg $1
 	cd ~/Music/HoldingZone
 	ARTISTNAME="$(ls)"
