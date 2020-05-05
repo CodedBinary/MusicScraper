@@ -1,0 +1,5 @@
+This is just for personal use. If you want to use this yourself, make sure you have selenium and a browser for it to automate. Add the content of bashrc to your .bashrc, change the 3 lines at the top to reflect the project root and directory where you store your music.
+
+The output of this program should be a bunch of tagged songs, contained in an appropriately named folder. If you downloaded an entire artists music, it shouldn't tag the songs automatically. You should use a program like Musicbrainz Picard to tag songs and determine if it missed any.
+
+Feel free to raise an issue if something isn't working or if you have a question. I intend to tidy this up at some point but that time is not now.
